@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Survey Page</title>
+
+		<!-- Latest compiled and minified CSS & JS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="text-center">Friend Finder</h1>
+
+				<h2 class="text-center">Find the friend of your dreams</h2>
+
+				<br>
+
+				<div class="text-center">
+					<a href="/">
+						<button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"> Home Page</span></button>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">Questionnaire</h4>
+						</div>
+
+						<div class="panel-body">
+							<!-- Form -->
+							<form role="form">
+								<!-- Name -->
+								<div class="form-group">
+									<label for="user-name">Name</label>
+									
+									<input type="text" class="form-control" id="user-name">
+								</div>
+
+								<!-- Image -->
+								<div class="form-group">
+									<label for="user-photo">Photo Link</label>
+									
+									<input type="text" class="form-control" id="user-photo">
+								</div>
+
+								<!-- Definitions -->
+								<div class="form-group row">
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong>Strongly Disagree</strong>
+									</div>
+									<div class="col-xs-1 col-xs-offset-7">
+										<strong>Strongly Agree</strong>
+									</div>
+								</div>
+								
+								<!-- Numbers -->
+								<div class="form-group row">
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong class="text-center">1</strong>
+									</div>
+
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong class="text-center">2</strong>
+									</div>
+
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong class="text-center">3</strong>
+									</div>
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong class="text-center">4</strong>
+									</div>
+									<div class="col-xs-1 col-xs-offset-1">
+										<strong class="text-center">5</strong>
+									</div>
+								</div>								
+
+								<!-- Questions -->
+								<section>
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 1: I like cats</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q1" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q1" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q1" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q1" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q1" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 2: I like dogs</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q2" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q2" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q2" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q2" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q2" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 3: I like people who are funny</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q3" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q3" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q3" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q3" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q3" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 4: I like hardworking people</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q4" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q4" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q4" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q4" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q4" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 5: I am outspoken about my political beliefs</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q5" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q5" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q5" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q5" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q5" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 6: I enjoy reading books</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q6" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q6" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q6" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q6" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q6" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 7: I am a moviegoer</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q7" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q7" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q7" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q7" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q7" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 8: I like playing games</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q8" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q8" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q8" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q8" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q8" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 9: I enjoy participating in outdoor activities</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q9" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q9" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q9" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q9" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q9" value="5"></label>
+									</div>
+
+									<div class="row">
+										<strong class="col-xs-offset-1">Question 10: I eat many types of food</strong>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q10" value="1"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q10" value="2"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q10" value="3"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q10" value="4"></label>
+
+										<label class="col-xs-1 col-xs-offset-1"><input type="radio" name="q10" value="5"></label>
+									</div>
+								</section>
+
+								<!-- Submit -->
+								<div class="text-danger" id="error"></div>
+								<button type="submit" class="btn btn-primary submit">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal -->
+			<div id="friendModal" class="modal fade">
+				<!-- Modal content -->
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Your New Friend!</h4>
+						</div>
+						
+						<div class="modal-body">
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<p><a href="/api/friends">API Friend List</a></p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+	// In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+	// In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+	// Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+	// In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+	$(".submit").on("click", function(event)
+	{
+		event.preventDefault();
+		var newFriend = 
+		{
+			name: $("#user-name").val().trim(),
+			photo: $("#user-photo").val().trim(),
+			scores: [$("input[name='q1']:checked").val(), $("input[name='q2']:checked").val(), $("input[name='q3']:checked").val(), 
+			$("input[name='q4']:checked").val(), $("input[name='q5']:checked").val(), $("input[name='q6']:checked").val(), 
+			$("input[name='q7']:checked").val(), $("input[name='q8']:checked").val(), $("input[name='q9']:checked").val(), 
+			$("input[name='q10']:checked").val()]
+		};
+		
+		console.log(newFriend);
+
+		if(newFriend.name == "")
+			newFriend.name = "John Doe";
+
+		if(newFriend.photo == "")
+			newFriend.photo = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pessoa_Neutra.svg/1024px-Pessoa_Neutra.svg.png";
+
+		var allQuestionsAnswered = true;
+
+		for(var i = 0; i < 10; i++)
+		{
+			if(newFriend.scores[i] == undefined)
+			{
+				allQuestionsAnswered = false;
+				break;
+			}
+		}
+
+		
+		// This line is the magic. It"s very similar to the standard ajax function we used.
+		// Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+		// The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+		// depending on if a tables is available or not.
+		if(allQuestionsAnswered)
+		{
+			$.post("./api/friends", newFriend, function(matchedFriend)
+			{
+				console.log("Back to the html");
+				console.log(matchedFriend);
+				var modalContent = $(".modal-body");
+				var newDiv = $("<div>");
+				// add the name
+				newDiv.html("<h4>" + matchedFriend.name + "</h4>");
+				// add the image
+				var newImg = $("<img>");
+				newImg.attr("src", matchedFriend.photo);
+				newImg.attr("alt", "Photo of " + matchedFriend.name);
+				newImg.attr("style", "width:100%;height:400px;")
+				newDiv.append(newImg);
+				modalContent.html(newDiv);
+				$("#friendModal").modal();
+				// modal.style.display = "block";
+			});
+
+			// Clear the form when submitting
+			$("#error").html("");
+			$("#user-name").val("");
+			$("#user-photo").val("");
+			for(var i = 0; i < 10; i++)
+			{
+				$("input[name='q" + (i + 1) + "']:checked").prop("checked",false);
+			}
+		}
+		else
+		{
+			$("#error").html("<p>Not all questions have been answered. Please answer all questions before submitting the survey</p>");
+		}
+		
+	});
+</script>
